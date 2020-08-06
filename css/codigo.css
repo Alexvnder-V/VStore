@@ -1,0 +1,200 @@
+body,html{
+    background-color: rgba(194, 53, 10, 0.849);
+}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    background-color: rgb(253, 239, 206);
+}
+nav.navbar ul.nav li{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.bs-header {
+    background: rgb(194, 65, 10);
+    padding: .75rem 0;
+    height: 150px;
+       
+}
+
+body>* {
+    flex-shrink: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+h1{
+    color: cornsilk;
+}
+
+header {
+    height:500px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding:20px;
+    background:linear-gradient(45deg , rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../img/1729222.jpg);
+    
+    background-position: center;
+    color:#fff;
+   }
+header button {
+    background:#db4416;
+    margin-top:15px;
+   }
+#letrasdeNavBarPrincipal1-1{
+    color: antiquewhite;
+}
+#letrasdeNavBarPrincipal1-2{
+    color: antiquewhite;
+}
+#mainImagenesPrincipal{
+    width: 1150px;
+    height: 3800px ;
+    padding: auto;
+    margin: auto;
+    background-color: teal;
+    
+    
+}
+body{
+    min-height: 100vh;
+    flex-wrap: wrap;
+    
+}
+
+#textoPaginaPrincipal{
+    margin: auto;
+    color: cornsilk;
+    height: 30px;
+}
+#segunda{
+    width: 800px;
+    height: 2900px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#textoArtistas{
+    color: cornsilk;
+}
+
+
+#player{
+    height: 15px;
+}
+
+.bs-footer{
+    align-self: flex-end;
+    background-color: rgb(194, 65, 10);
+}
+#mainRegistro{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.582);
+}
+
+#h108{
+    text-align: center;
+}
+.tabla08{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+.caja08{
+    margin: auto;
+    width: 1100px;
+    height: 700px;
+    padding: 10%;
+    background-color: rgba(119, 253, 159, 0.541);
+}
+#textoRe08{
+    text-align: center;
+}
+#botonRegistrar{
+    display: inline-block;
+    outline: none;
+    border: none;
+    transition: 0.3s ease;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+#segundaCompras{
+    width: 1100px;
+    height: 4500px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#segundaComprasAcce{
+    width: 1100px;
+    height: 3000px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#segundaComprasZapa{
+    width: 1100px;
+    height: 2000px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#prendasAmbi{
+    height: 50px;
+}
+.card{
+    height: 700px;
+}
+#segundaComprasMujer{
+    width: 1100px;
+    height: 7000px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#segundaComprasAcceMujer{
+    width: 1100px;
+    height: 2500px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#segundaComprasZapaMujer{
+    width: 1100px;
+    height: 3800px;
+    background-color: #005c8080;
+    margin: auto;
+}
+#segundaInformacion{
+    width: 1100px;
+    height: 2500px;
+    background-color: rgba(194, 59, 10, 0.836);
+    margin: auto;
+}
+#informacionVStore{
+    background-color: rgba(209, 87, 65, 0);
+    padding: 30px;
+    width: 800px;
+}
+#tituloInformacion{
+    color: whitesmoke;
+}
+#contenidoInformacionVStore{
+    color: rgb(192, 192, 192);
+}
+
+
