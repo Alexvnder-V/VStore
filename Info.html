@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/codigo.css">
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
+
+    <title>VStore Infomación</title>
+  </head>
+  <body>
+
+    <header class="bs-header bs-sticky-header" data-bs="header" data-info="sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center">
+                  <a class="navbar-brand" href="index.html" title="VStore"><h1>VStore</h1></a>
+              </div>
+          </div>
+          
+      </div><!-- fin container-->
+  </header>
+    
+
+    <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: #863404;">
+      <a class="navbar-brand" href="#"><img src="img/letraV.jpg" style="width:10%" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="letrasdeNavBarPrincipal1-1" aria-haspopup="true" aria-expanded="false">Hombre <span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown">
+                <a class="dropdown-item" href="paginaHombreRopa.html">Ropa</a>
+                <a class="dropdown-item" href="paginaHombreAccesorios.html">Accesorios</a>
+                <a class="dropdown-item" href="paginaHombreZapatillas.html">Zapatillas</a>
+              </div> 
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="paginaMujer.html" id="letrasdeNavBarPrincipal1-2" aria-haspopup="true" aria-expanded="false">Mujer <span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown">
+                <a class="dropdown-item" href="paginaMujer.html">Ropa</a>
+                <a class="dropdown-item" href="paginaMujerAccesorios.html">Accesorios</a>
+                <a class="dropdown-item" href="paginaMujerZapatillas.html">Zapatillas</a>
+              </div> 
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Info.html" id="letrasdeNavBarPrincipal1-3">Información</a>
+            
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="https://vstorelima.blogspot.com/" id="letrasdeNavBarPrincipal1-4">Blog</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Buscar">
+        </form>
+      </div>
+    </nav>
+
+    <header>
+      <div>
+        <h2>Prendas de tiendas Peruanas</h2>
+        <a href="registro.html" class="btn text-white  btn-outline-danger ">Ingresar</a>
+      </div>
+    </header>
+    
+    
+
+    <hr>
+    <br>
+    <div class="container">
+        <div id="reproductorBox">
+            <audio id="reproductor" controls="controls">
+              <source src="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Invierno Limeno.mp3" type="audio/aac" id="reproductorSource">
+              </audio></div>
+               
+        
+        <br><br><br><br>
+        <select class="listar" id="selectTrack" multiple="" onchange="cambiarTrack(this.options[this.selectedIndex]);">
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/A Veces.mp3">A veces - Gonzalo Genek</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Atrevido.mp3">Atrevido - Temple Sour</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Eterna - Maravi, Kaeve [M2H], Tavo Cruz, Hannah.mp3">Eterna - Maraví ft. Kaeve</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Explotar contigo - TOURISTA.mp3">Explotar contigo - Tourista</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Invierno Limeno.mp3">Invierno Limeño - Olaya Sound System</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Jacarandá - Olaya Sound System.mp3">Jacarandá - Olaya Sound System</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Kultura Babylon Kultura Babylon - Laguna Pai.mp3">Kultura Babylon Kultura Babylon - Laguna Pai</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Loco.mp3">Loco - Temple Sour</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Mirador de Estrellas.mp3">Mirador de Estrellas - A.C.O</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Nina.mp3">Niña - Los Outsaiders</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/No Jugarás [Live Session] - Sunset.mp3">No Jugarás - Sunset</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Por amor.mp3">Por amor - Amén</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Señorita.mp3">Señorita - Temple Sour</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Suena.mp3">Suena - Temple Sour</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Te Gustó (Audio Oficial) - Temple Sour.mp3">Te Gustó - Temple Sour</option>
+          <option path="C:/Users/aldai/Desktop/Diseño IP/ProyectoFinalDIP/musica/Una Señal.mp3">Una Señal - Heavy Coste ft. Gonzalo Genek</option>
+          
+          
+          
+          </select> 
+
+
+    </div>
+    <br><br>
+    <hr> 
+
+
+    <main>  
+      <div id="segundaInformacion" class="container" ><br>
+        <section  ><font size="7" id="tituloInformacion">VStore</font></section>
+        <div class="container" id="informacionVStore">
+            <p id="contenidoInformacionVStore">Somos un grupo de personas peruanas que quieren ver mejorar a empresas creadas por peruanos, desde la tienda de artesanía peruana en ferias, pasando por la tienda de ropa que emprendio tu amiga o amigo, hasta un grupo que quiere iniciar un negocio con una capital monetaria, apoyemos la cultura peruana, apoyemos al peruano, apoyemonos todos. Puedes averiguar más acerca de nosotros en nuestro <a href="https://vstorelima.blogspot.com/" >Blog</a>  .</p>
+        </div>
+        <br><br><br>
+        <font size="4" id="tituloInformacion" >ARTISTAS PERUANOS</font>
+        <br><br><p id="tituloInformacion">ELLIOT TUPAC</p>
+        <section  ><iframe width="1000" height="520" src="https://www.youtube.com/embed/cjvH8WvdP7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+        
+        
+        <br><br><p id="tituloInformacion">JADE RIVERA (DECERTOR)</p>
+        <section ><iframe width="1000" height="520" src="https://www.youtube.com/embed/gM6htE1wSJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </section>
+        
+        
+        <br><br><p id="tituloInformacion">ENTES Y PESIMO</p>
+        <section> <iframe width="1000" height="520" src="https://www.youtube.com/embed/xZeAvvHT75M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+    </div>
+      <br>
+      <div id="tercera" class="container" ><br>
+
+    </div>
+    </main>
+
+
+
+
+      <footer class="bs-footer d-print-none">
+        <div class="container ">
+            <div class="row ">  
+              <hr>
+            </div>
+            <div class=" col-12 text-center">
+              <nav class="list-group list-group-horizontal-md justify-content-center">
+                        
+              </nav> 
+              <hr>
+            </div>
+                    <div class="text-center col-12">
+                      <aside class="bs-social-media">        
+
+                        <a class="btn btn-link" title="Visitanos en facebook" href="https://www.facebook.com" target="_blank" rel="nofollow noopener noreferrer">
+                            <i class="btn-social white fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                      
+                        <a class="btn btn-link" title="Visitanos en twitter" href="https://twitter.com" target="_blank" rel="nofollow noopener noreferrer">
+                            <i class="btn-social white fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                      
+                        <a class="btn btn-link" title="Visitanos en instagram" href="https://www.instagram.com" target="_blank" rel="nofollow noopener noreferrer">
+                            <i class="btn-social white fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                      
+                      </aside>
+                    </div>
+                
+            
+    
+                <aside>
+                    <small class="col-12">
+                        <div class="text-center">
+                            <div class="bs_form_footer">
+                                  <strong class="d-block d-md-inline">VStore © 2020</strong>
+
+                            </div>
+                        </div>
+                    </small>
+                </aside>
+        </div>
+          
+      </footer>
+    
+  
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/85d69cc3e5.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+  
+</html>
